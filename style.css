@@ -28,6 +28,7 @@ body{
 }
 #logoSangue{
     height: 50%;
+;
 }
 #imagemcont{
     display: flex;
@@ -121,4 +122,23 @@ button:hover{
 button:active{
     transform: translateY(2px);
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+input:focus {
+    border: 2px solid #e63946;
+    outline: none;
+}
+
+
+input:valid {
+    border-color: #2a9d8f;
+}
+.inputarea{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgba(128, 128, 128, 0.123);
+    border-radius: 10px;
+}
+.icon{
+    margin: 10px;
 }

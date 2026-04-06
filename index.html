@@ -3,6 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <title>Doação de sangue</title>
 </head>
 <body>
@@ -12,22 +13,37 @@
         <div id="imagemcont">
             <img src="assets/images/imagemsangue.png" alt="imagemGotaDeSangue" id="logosangue">
         </div>
-        <div class="container_form">
+        <div class="container_form flex">
             <h3>Cadastre-se</h3>
             <form action="" id="formulario">
+
                 <label for="nome">Nome Completo:</label><br>
+                <div class="flex inputarea">
+                <i class="fa-solid fa-circle-user icon"></i>
                 <input type="text" id="nome" placeholder="Insira seu nome" required><br>
+                </div>
 
                 <label for="email">Email:</label><br>
+                <div class="flex inputarea">
+                <i class="fa-solid fa-envelope icon"></i>
                 <input type="email" id="email" placeholder="Insira seu email" required><br>
+                </div>
 
                 <label for="idade">Idade:</label><br>
+                <div class="flex inputarea">
+                <i class="fa-solid fa-calendar icon"></i>
                 <input type="number"  id="idade"  required><br>
+                </div>
 
                 <label for="peso">Peso(kg):</label><br>
+                <div class="flex inputarea">
+                <i class="fa-solid fa-weight-scale icon"></i>
                 <input type="number" id="peso"  required> <br>
+                </div>
 
                 <label for="sangue">Tipo Sanguíneo:</label><br>
+                <div class="flex inputarea">
+                <i class="fa-solid fa-droplet icon"></i>
                 <select name="sangue" id="sangue">
                     <option selected disabled>Selecione seu tipo sanguineo</option>
                     <option value="A+">A+</option>
@@ -39,17 +55,25 @@
                     <option value="O+">O+</option>
                     <option value="O-">O-</option>
                 </select><br>
+                </div>
 
                 <label for="telefone">Telefone:</label><br>
+                <div class="flex inputarea">
+                <i class="fa-solid fa-phone icon"></i>
                 <input type="tel" id="telefone" placeholder="(00) 00000-0000" required> <br>
-
+                </div>
 
                 <label for="estado">Estado:</label><br>
+                <div class="flex inputarea">
+                <i class="fa-solid fa-location-dot icon "></i>
                 <input type="text" id="estado" placeholder="Insira seu estado" required> <br>
-
+                </div>
 
                 <label for="cidade">Cidade:</label><br>
+                <div class="flex inputarea">
+                <i class="fa-solid fa-location-dot icon"></i>
                 <input type="text" id="cidade" placeholder="Insira sua cidade" required> <br>
+                </div>
 
                 <div class="flex"><br>
                     <button type="submit">Enviar</button>

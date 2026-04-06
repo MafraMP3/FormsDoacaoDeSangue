@@ -77,7 +77,6 @@ if (valido) {
         doadores.push(doador);
         console.log(doadores);
 
-        // limpar campos
         document.getElementById('nome').value = "";
         document.getElementById('email').value = "";
         document.getElementById('telefone').value = "";
