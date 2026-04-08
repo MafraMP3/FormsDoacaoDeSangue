@@ -38,6 +38,7 @@ form.addEventListener('submit', function (event){
 
     if(!email.includes('@')){
         alert("Email inválido");
+        valido = false;
     }
 
         if (idade < 16) {
